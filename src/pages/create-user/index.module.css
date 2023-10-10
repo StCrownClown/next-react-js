@@ -1,0 +1,88 @@
+/* /src/pages/create-user/index.module.css */
+
+.container {
+  margin-top: 5rem;
+  background-color: #fff0e0;
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #ffb6c1;
+}
+
+.inputField {
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  background-color: #fff0e0;
+  font-weight: bold;
+}
+
+.inputField:focus {
+  outline: none;
+  border-color: #ffb6c1;
+}
+
+.btnPrimary {
+  background-color: #ffe066; 
+  color: #4b3822;
+  border-radius: 50px;
+  width: 100%;
+  font-weight: bold;
+}
+
+.btnPrimary:hover {
+  background-color: #a1c38e;
+}
+
+.btnSecondary {
+  background-color: lavender;
+  color: #4b3822;
+  border-radius: 50px;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+.btnSecondary:hover {
+  background-color: #a1c38e;
+}
+
+.btnLink {
+  color: #ffb6c1;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  z-index: 9999;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+}
+
+.requiredNote {
+  color: red;
+}

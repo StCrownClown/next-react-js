@@ -1,0 +1,35 @@
+/* /src/pages/confirmation/index.module.css */
+
+.container {
+  margin-top: 5rem;
+  background-color: #FFF0E0;
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #FFB6C1;
+  font-weight: bold;
+}
+
+.message {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  color: #4B3822;
+  font-weight: bold;
+}
+
+.btnPrimary {
+  background-color: #FFE066;
+  color: #4B3822;
+  border-radius: 50px;
+  width: 100%;
+  font-weight: bold;
+}
+
+.btnPrimary:hover {
+  background-color: #a1c38e;
+}

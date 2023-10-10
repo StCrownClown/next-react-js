@@ -1,0 +1,9 @@
+/* /src/styles/global.css */
+
+body,
+html {
+  background-color: #4b3822;
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}

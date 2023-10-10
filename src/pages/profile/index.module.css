@@ -1,0 +1,222 @@
+/* /src/pages/profile/index.module.css */
+
+.container {
+  margin-top: 5rem;
+  background-color: #fff0e0;
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.profileDetail {
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: #ffd1dc;
+  color: #4b3822;
+  font-weight: bold;
+}
+
+.profileDetail h1 {
+  color: #ffb6c1;
+  font-weight: bold;
+}
+
+.flowerList {
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+.flowerList h2 {
+  color: #ffb6c1;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.flowerList ul {
+  list-style: none;
+  padding: 0;
+}
+
+.btnPrimary {
+  background-color: #ffe066;
+  color: #4b3822;
+  border-radius: 50px;
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.btnPrimary:hover {
+  background-color: #a1c38e;
+}
+
+.btnSecondary {
+  background-color: lavender;
+  color: #4b3822;
+  border-radius: 50px;
+  margin-right: 1rem;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.btnSecondary:hover {
+  background-color: #a1c38e;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+}
+
+.modalContent {
+  background-color: #fff0e0;
+  padding: 2rem;
+  border-radius: 15px;
+  width: 80%;
+  max-width: 600px;
+  overflow-y: auto;
+  max-height: 800px;
+}
+
+.flowerList img {
+  width: 300px;
+  height: 300px;
+  margin-right: 20px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.scrollableFlowerList {
+  max-height: 500px;
+  overflow-y: auto;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+.flowerList li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: lavender;
+}
+
+.loadingSpinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  border: 6px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top: 5px solid #a1c38e;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.customFileInput {
+  position: relative;
+  display: inline-block;
+  background-color: #ffb6c1;
+  color: #4b3822;
+  border-radius: 50px;
+  padding: 10px 15px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.customFileInput:hover {
+  background-color: #a1c38e;
+}
+
+#fileName {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
+
+.shotorchoose {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.8rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #4b3822;
+  font-weight: bold;
+}
+
+.requiredNote {
+  color: red;
+}
+
+.logoutButton {
+  background-color: #d3d3d3;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+
+.logoutButton:hover {
+  background-color: #b0b0b0;
+}
+
+.centerContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+
+.inputField {
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  background-color: #FFF0E0;
+  font-weight: bold;
+}
+
+.inputField:focus {
+  outline: none;
+  border-color: #FFB6C1;
+}
